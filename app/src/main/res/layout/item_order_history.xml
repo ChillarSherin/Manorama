@@ -1,0 +1,237 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/LaytTransItem"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/ImgCanteen"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--/>-->
+
+        <!--<View-->
+        <!--android:id="@+id/v1"-->
+        <!--android:layout_width="2dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/greylayoutbg"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_toRightOf="@+id/ImgCanteen"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--/>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+
+
+            <TextView
+                android:id="@+id/TvTransType"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+
+                android:text="Order Date"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+
+            <TextView
+                android:id="@+id/trans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Order Session"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Outlet Name"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Total"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+
+            <TextView
+                android:id="@+id/downloadstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Status"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text=":"
+                android:textColor="#585A58"
+
+
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:text=":"
+                android:textColor="#585A58"
+
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+
+                android:text=":"
+                android:textColor="#585A58"
+
+
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text=":"
+                android:textColor="#585A58"
+
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/downloadstatusdot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text=":"
+                android:textColor="#585A58"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/transID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="000"
+                android:textColor="#585A58"
+
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/transCount"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="000"
+                android:textColor="#585A58"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/amountid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:text="000"
+
+                android:textColor="#585A58"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/statusid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="000"
+                android:textColor="#585A58"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/downloadstatusid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="000"
+                android:textColor="#585A58"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_arrow_green"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--/>-->
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

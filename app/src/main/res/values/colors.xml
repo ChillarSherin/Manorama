@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3498db</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightGrey">#ecf0f1</color>
+    <color name="bgColor">#f2f2f2</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="buttonColor">#3498db</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorGrey">#bebebe</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorOrange">#F99D31</color>
+    <color name="colorButtonGrey">#32485C</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="grey_font">#e4e4e4</color>
+    <color name="actionbarbg">#1CA1DC</color>
+    <color name="actionbarbgdark">#FF157CA9</color>
+    <color name="white">#ffffff</color>
+    <color name="cream">#e1faf2f2</color>
+    <color name="appgreen">#d2e4a6</color>
+    <color name="txtgrey">#979797</color>
+    <color name="buttoncolor">#979797</color>
+    <color name="txtdarkgrey">#686a6b</color>
+    <color name="txtnewGrey">#535454</color>
+    <color name="app_bg_color">#f2f2f2</color>
+    <color name="app_bg_color2">#cac9c9</color>
+    <color name="greylayoutbg">#f3f3f3</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+
+    <color name="green">#2ecc71</color>
+    <color name="blue">#2a8ad8</color>
+
+    <color name="cyan">#1abc9c</color>
+
+
+    <color name="paynimo_app_color">#d71921</color>
+    <color name="paynimo_backgroundColor">#f1f1f1</color>
+    <color name="paynimo_textColorHighlight">#d28286</color>
+    <!-- TextView Colors -->
+
+    <color name="paynimo_textViewTextColor">#2E2E2E</color>
+    <color name="paynimo_textViewBackgroundColor">#f1f1f1</color>
+
+    <!-- EditText Colors -->
+
+    <color name="editTextBackgroundColor">#FFFFFF</color>
+    <color name="editTextBorderColor">#fed83d</color>
+    <color name="editTextInactiveBorderColor">#fed83d</color>
+    <color name="errorTextColor">#FFFF0000</color>
+    <color name="paynimo_defaultTextColor">#000000</color>
+    <color name="defaultTextColor">#000000</color>
+    <color name="paynimo_defaultHintTextColor">#BDBDBD</color>
+
+    <!-- Button Colors -->
+
+    <color name="paynimo_buttonDefaultStrokeColor">#a0e0b071</color>
+    <color name="paynimo_buttonDefaultColor">#d12b29</color>
+    <color name="paynimo_buttonPressedStrokeColor">#a0e0b071</color>
+    <color name="paynimo_buttonPressedColor">#F5A9A9</color>
+    <color name="paynimo_buttonDefaultFontColor">#FFFFFF</color>
+    <color name="paynimo_buttonPressedFontColor">#FFFFFF</color>
+
+    <!-- Rounded view Colors -->
+
+    <color name="paynimo_roundedViewBorderColor">#cccccc</color>
+    <color name="paynimo_roundedViewBGColor">#f1f1f1</color>
+    <!-- listview Colors -->
+
+    <color name="paynimo_listDividerColor">#b5b5b5</color>
+
+    <color name="paynimo_listRowBgColor">#CBCBCB</color>
+
+    <color name="paynimo_logoBlueColor">#87CEFA</color>
+    <color name="paynimo_logoOrangeColor">#F75205</color>
+
+    <color name="orange">#FF8602</color>
+
+    <color name="black">#000000</color>
+
+
+    <color name="col_google">#DD4C3A</color>
+    <color name="col_facebook">#3C5A99</color>
+
+    <color name="dots_color">#FE2E64</color>
+    <color name="v_grey">#EAEAEA</color>
+
+    <color name="dark_grey">#424242</color>
+    <color name="dark_grey1">#333131</color>
+
+    <color name="button_color">#01DFA5</color>
+
+    <color name="grey_div">#ebedee</color>
+
+
+    <color name="layt_col">#50D2C2</color>
+
+    <color name="duskYellow">#F8BB24</color>
+    <color name="lightGrey">#e9e9e9</color>
+    <color name="lightGreynew">#f5f4f4</color>
+
+
+    <color name="edit_grey">#BBBBBE</color>
+    <color name="very_dark_gray">#343434</color>
+    <color name="dark_grayish_blue">#78777D</color>
+    <color name="gray">#6D7371</color>
+    <color name="gray1">#1F1F27</color>
+    <color name="gray2">#6E7273</color>
+
+</resources>

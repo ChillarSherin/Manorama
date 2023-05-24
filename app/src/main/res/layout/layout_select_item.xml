@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LaytMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteColor"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGrey" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/txtItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start|center"
+                android:paddingStart="5dp"
+                android:text="CUTLET"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center"
+                    android:paddingStart="5dp"
+                    android:text="Availability - "
+                    android:textColor="@color/dark_grey" />
+
+                <TextView
+                    android:id="@+id/txtAvailability"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center"
+                    android:text="Unlimited"
+                    android:textColor="@color/dark_grey" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGrey" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="15"
+            android:textColor="@color/dark_grey"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGrey" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/et_border_grey">
+
+                <!--<Spinner
+                    android:id="@+id/spinnerQty"
+                    android:visibility="visible"
+                    android:scrollbars="none"
+                    android:popupBackground="@drawable/et_border_grey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />-->
+
+                <Spinner
+                    android:id="@+id/spinnerQty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="left"
+                    android:popupBackground="@drawable/et_border_grey"
+                    android:spinnerMode="dropdown" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/qty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/et_border_grey"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="1"
+                android:textColor="@color/dark_grey"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGrey" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/checked"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:button="@drawable/checkbox_selector" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorGrey" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorGrey" />
+
+</LinearLayout>

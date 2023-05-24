@@ -1,0 +1,148 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:background="#faf1f1"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:theme="@style/ToolbarColoredBackArrow" />
+<!--
+
+        <LinearLayout
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/txtOrderStatus1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATUS"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtOrderStatus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+-->
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        android:id="@+id/ErrorLayoutnew"
+        layout="@layout/errorlayout_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:id="@+id/layoutnew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:id="@+id/mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/mainlayoutnew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:paddingStart="10dp"
+                        android:text="2017-12-04"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="25dp"
+                        android:src="@drawable/calendar" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listviewid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <include
+        android:id="@+id/incProgressBar"
+        layout="@layout/only_progressbar_showing"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/ErrorLayoutnew"
+        layout="@layout/errorlayout_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
