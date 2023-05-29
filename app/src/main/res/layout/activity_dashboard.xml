@@ -4,59 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/blue"
-        >
+        android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/blue"
-            app:theme="@style/ToolbarColoredBackArrow" />
-
-        <LinearLayout
-            android:id="@+id/details"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:background="@color/blue"
-            android:layout_marginBottom="5dp"
-            android:layout_gravity="center_vertical"
-            >
-
-            <TextView
-                android:id="@+id/statusid"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textColor="@color/white"
-                android:textSize="14dp"
-                />
-            <TextView
-                android:id="@+id/username"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textColor="@color/white"
-                android:textSize="23dp"
-                />
-
-
-        </LinearLayout>
+            android:background="?attr/colorPrimary" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-
-    <androidx.drawerlayout.widget.DrawerLayout
+    <android.support.v4.widget.DrawerLayout
         android:id="@+id/drawer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#96ffffff"
+        android:background="@color/whiteColor"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
@@ -71,11 +35,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_green"
+                android:background="@drawable/bg_orange"
                 android:text="Place Order"
                 android:textAllCaps="true"
                 android:textColor="@color/whiteColor"
@@ -86,112 +50,74 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
                 android:layout_weight="1"
-                android:background="@drawable/et_border_white"
+                android:background="@drawable/bt_border"
                 android:text="Order History"
                 android:textAllCaps="true"
-                android:textColor="@color/black"
+                android:textColor="@color/whiteColor"
                 android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="4"
-                android:background="@color/white"
+                android:background="@color/colorLightGrey"
                 android:gravity="center"
-                android:orientation="horizontal"
-                >
-                <LinearLayout
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/money_transaction" />
+
+                <TextView
+                    android:id="@+id/txt1"
                     android:layout_width="match_parent"
-                    android:layout_height="130dp"
-                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:gravity="center"
-                    android:background="#b0f4f4f4"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    >
+                    android:text="ONE MONTH TOTAL TRANSACTION"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp" />
 
-                    <TextView
-                        android:id="@+id/txtTotal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/colorBlack"
-                        android:textSize="26sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/txt1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center"
-                        android:text="One Month Total Amount"
-                        android:textColor="@color/gray"
-                        android:textSize="15sp" />
-
-                </LinearLayout>
-                <LinearLayout
+                <TextView
+                    android:id="@+id/txtTotal"
                     android:layout_width="match_parent"
-                    android:layout_height="130dp"
-                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:gravity="center"
-                    android:background="#b0f4f4f4"
-                    android:layout_marginLeft="10dp"
-                    android:orientation="vertical"
-                    >
-
-                    <TextView
-                        android:id="@+id/txttoatltrans"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/colorBlack"
-                        android:textSize="26sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/txt2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center"
-                        android:text="One Month Total Transaction"
-                        android:textColor="@color/gray"
-                        android:textSize="15sp" />
-
-
-                </LinearLayout>
+                    android:text=""
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
         </LinearLayout>
 
-        <com.google.android.material.navigation.NavigationView
+        <android.support.design.widget.NavigationView
             android:id="@+id/nav_view"
             android:layout_width="200dp"
             android:layout_height="match_parent"
             android:layout_gravity="end"
-            android:background="@color/blue"
+            android:background="@color/whiteColor"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/nav_header"
             app:itemBackground="@drawable/menu_item_bg"
-            app:itemTextColor="@color/white"
+            app:itemTextColor="@color/colorBlack"
             app:menu="@menu/menu_navigation">
 
-        </com.google.android.material.navigation.NavigationView>
+        </android.support.design.widget.NavigationView>
 
-    </androidx.drawerlayout.widget.DrawerLayout>
+    </android.support.v4.widget.DrawerLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
