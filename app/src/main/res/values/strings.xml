@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Employee App</string>
+    <string name="app_name">MM Canteen</string>
     <string name="placeorder">Place Order</string>
     <string name="foodsessions">Food Sessions</string>
     <string name="selectoutlet">Outlets</string>
+    <string name="cntinue">Continue</string>
 </resources>

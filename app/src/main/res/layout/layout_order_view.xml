@@ -150,7 +150,7 @@
             android:layout_height="25dp"
             android:layout_marginRight="15dp"
             android:gravity="center"
-            android:text="EDIT"
+            android:text="More"
             android:textSize="16dp"
             android:textStyle="bold" />
 

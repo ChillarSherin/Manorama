@@ -8,15 +8,16 @@
             android:icon="@drawable/ic_dashboard"
             android:title="Dashboard" />
 
-        <item
-            android:id="@+id/nav_order_food"
-            android:icon="@drawable/ic_order_food"
-            android:title="Order Food" />-->
-
-
+       -->
+        <!--<item
+            android:id="@+id/nav_switch"
+            android:icon="@drawable/icon_switch"
+            android:iconTint="@color/white"
+            android:title="Switch" />-->
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout"
+            android:iconTint="@color/white"
             android:title="Logout" />
 
     </group>
